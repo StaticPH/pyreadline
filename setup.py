@@ -147,11 +147,11 @@ setup(
     # py_modules=["readline"],
     packages=packages,
     package_data={"pyreadline": ["configuration/*"]},
-    data_files=[("doc", glob.glob("doc/*")),],
+#     data_files=[("doc", glob.glob("doc/*")),],
     cmdclass=cmd_class,
     python_requires=">=2.6.0",
     requires=["setuptools", "pywin32"],
     # They actually really don't but hey
     tests_require=["pytest"],
-    extras_require={"docs": ["sphinx"]},
+#     extras_require={"docs": ["sphinx"]},
 )
