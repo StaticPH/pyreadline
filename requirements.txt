@@ -1,5 +1,5 @@
 setuptools
 # ugh this neededs to be conditional on platform
 # pywin32
-Sphinx>=2.4.4
+#Sphinx>=2.4.4
 flake8
